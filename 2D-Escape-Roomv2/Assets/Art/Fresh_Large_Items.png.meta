@@ -1,0 +1,967 @@
+fileFormatVersion: 2
+guid: 45fa33923aad44adfa0e6561a9411221
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1027322395954043570
+    second: Fresh_Large_Items_0
+  - first:
+      213: 7296011711611711361
+    second: Fresh_Large_Items_1
+  - first:
+      213: -4622872391834018767
+    second: Fresh_Large_Items_2
+  - first:
+      213: -8518885936510023340
+    second: Fresh_Large_Items_3
+  - first:
+      213: 3304131534044884570
+    second: Large_Kitchen1
+  - first:
+      213: -8663213294436055416
+    second: Fresh_Large_Items_5
+  - first:
+      213: -1523253083401545038
+    second: Fresh_Large_Items_6
+  - first:
+      213: 4414037757922236442
+    second: Fresh_Large_Items_7
+  - first:
+      213: -5402188408613631454
+    second: Fresh_Large_Items_8
+  - first:
+      213: -8749695902039392631
+    second: Large_Kitchen2
+  - first:
+      213: -3816526749917103504
+    second: Fresh_Large_Items_10
+  - first:
+      213: -8461047280885127041
+    second: Fresh_Large_Items_11
+  - first:
+      213: -6332403495278244615
+    second: Fresh_Large_Items_12
+  - first:
+      213: -5448041933818259018
+    second: Fresh_Large_Items_13
+  - first:
+      213: 6148107158576814873
+    second: Large_Kitchen3
+  - first:
+      213: 8252214753860612791
+    second: Fresh_Large_Items_15
+  - first:
+      213: 4422710769536742353
+    second: Fresh_Large_Items_16
+  - first:
+      213: -2786641821362920729
+    second: Fresh_Large_Items_17
+  - first:
+      213: -4265907601153662119
+    second: Fresh_Large_Items_18
+  - first:
+      213: -1890757965916221626
+    second: Large_Kitchen4
+  - first:
+      213: 8097416171623664991
+    second: Fresh_Large_Items_20
+  - first:
+      213: 2159298719009463587
+    second: Fresh_Large_Items_21
+  - first:
+      213: -4909473834376234880
+    second: Fresh_Large_Items_22
+  - first:
+      213: 4206839190998609695
+    second: Fresh_Large_Items_23
+  - first:
+      213: 3287548214939784424
+    second: Painting
+  - first:
+      213: 7354886084827884558
+    second: Door
+  - first:
+      213: -5741191921564715605
+    second: Fresh_Large_Items_26
+  - first:
+      213: -3103195448583964205
+    second: Fresh_Large_Items_27
+  - first:
+      213: -370897721990505294
+    second: Fresh_Large_Items_28
+  - first:
+      213: -654791437676777456
+    second: Fresh_Large_Items_29
+  - first:
+      213: -1511620812837292064
+    second: Fresh_Large_Items_30
+  - first:
+      213: -8731993738853196009
+    second: Fresh_Large_Items_31
+  - first:
+      213: 8848918078526558899
+    second: Fresh_Large_Items_32
+  - first:
+      213: 3709111724930971614
+    second: Fresh_Large_Items_33
+  - first:
+      213: -4245792880493904306
+    second: Fresh_Large_Items_34
+  - first:
+      213: -7807932515262440754
+    second: Fresh_Large_Items_35
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fresh_Large_Items_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1053
+        width: 136
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d37c06c54b3841949125e9a1cd28dcb
+      internalID: -1027322395954043570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1040
+        width: 70
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a52ae6f4db84eada29c80c558d5d03
+      internalID: 7296011711611711361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_2
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1040
+        width: 70
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366cb791f389a461199817e628817e5d
+      internalID: -4622872391834018767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_3
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1063
+        width: 204
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb6cd207513546fc9ba3a7877d809a8
+      internalID: -8518885936510023340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Kitchen1
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1067
+        width: 198
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 1, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fadd43af79a544469b94ea915b35b01
+      internalID: 3304131534044884570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 920
+        width: 136
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b14ea8b9afd4595a1c8a5441181690
+      internalID: -8663213294436055416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_6
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 964
+        width: 111
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0dd08c199fd412a820dba055ba06ca
+      internalID: -1523253083401545038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 962
+        width: 122
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b36a9b4f98a498091b805983d83d37
+      internalID: 4414037757922236442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_8
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 930
+        width: 204
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae860aa03c52b4024aa745a983179ef9
+      internalID: -5402188408613631454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Kitchen2
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 933
+        width: 197
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab71ef13cc80481bb7cf9ad62372ef0
+      internalID: -8749695902039392631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 798
+        width: 138
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c32609f12f746aea80c4cd76a35945
+      internalID: -3816526749917103504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 773
+        width: 121
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e2101d776ac482aac232a304a8cb4c
+      internalID: -8461047280885127041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_12
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 811
+        width: 133
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f946a882c74a421389ab9a110ca0569
+      internalID: -6332403495278244615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 807
+        width: 171
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dcfb46e04da413da530f91f7b4588a
+      internalID: -5448041933818259018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Kitchen3
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 798
+        width: 197
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a523ec657a94725a1ac6bb56f6075b
+      internalID: 6148107158576814873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 661
+        width: 141
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d242591d2d344a09a0cd2ab494bf5a
+      internalID: 8252214753860612791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_16
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 656
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7843da1072b43ea9d3f2f03cf3aba6
+      internalID: 4422710769536742353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 663
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c5898ea63374028b3675aad1d4d2f1
+      internalID: -2786641821362920729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_18
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 691
+        width: 136
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acb4b4e9ad7a422986d98e7c009f8a9
+      internalID: -4265907601153662119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large_Kitchen4
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 659
+        width: 198
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 2, z: 1, w: 2}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d46507174d00415b9f6f6cbe2e9fe38
+      internalID: -1890757965916221626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 542
+        width: 137
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c508069dcf544c8a861a19ca073a28
+      internalID: 8097416171623664991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 535
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1526f99ca29414c42833aa7a915d315c
+      internalID: 2159298719009463587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_22
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 539
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f4db41571724b40b1af4afc54ffc16
+      internalID: -4909473834376234880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_23
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 520
+        width: 147
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df3953625e9f4158982e03eb16eeb12
+      internalID: 4206839190998609695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 471
+        width: 8
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cdce1ad946649bda927523d357e492
+      internalID: 3287548214939784424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 587
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a721ec7d0f9184101bd43d6c98d8292e
+      internalID: 7354886084827884558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 398
+        width: 138
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcba5ce15fdbf4781b56db54408823ac
+      internalID: -5741191921564715605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 398
+        width: 107
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcedb270786e405ebd242404547de2e
+      internalID: -3103195448583964205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_28
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 406
+        width: 91
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203c1666189474f208354f1e7fd2be4a
+      internalID: -370897721990505294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_29
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 415
+        width: 145
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b3898f449964a169708b6ba7b67e5d
+      internalID: -654791437676777456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_30
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 152
+        width: 35
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0b2f89cdbde47fb9aec0a6c4c0deed
+      internalID: -1511620812837292064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_31
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 168
+        width: 102
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e493949538064b479069b5e81a33497
+      internalID: -8731993738853196009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_32
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 188
+        width: 138
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2746989f4bd4b14afe9630799bebc0
+      internalID: 8848918078526558899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 139
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dec1b4be956842ed99d84f681e80470
+      internalID: 3709111724930971614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_34
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 0
+        width: 75
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206f83b0e97b34d5e891a25685a55871
+      internalID: -4245792880493904306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fresh_Large_Items_35
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 69
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bebb554c8b54ff28aac3720653149e
+      internalID: -7807932515262440754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

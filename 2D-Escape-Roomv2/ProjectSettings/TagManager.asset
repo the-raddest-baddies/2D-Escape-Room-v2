@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2661247687
+    locked: 0
+  - name: Floor-Decor
+    uniqueID: 3766555975
+    locked: 0
+  - name: Furniture
+    uniqueID: 3334339011
+    locked: 0
+  - name: TV
+    uniqueID: 3139851631
+    locked: 0
+  - name: Player
+    uniqueID: 3515067721
+    locked: 0
