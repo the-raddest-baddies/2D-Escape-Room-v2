@@ -6,6 +6,8 @@ public class DialogActivator : MonoBehaviour {
 
     public string[] lines;
 
+    public string item;
+
     private bool canActivate;
 
 
