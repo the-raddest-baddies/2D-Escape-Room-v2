@@ -50,9 +50,9 @@ TagManager:
   - name: Furniture
     uniqueID: 3334339011
     locked: 0
-  - name: TV
-    uniqueID: 3139851631
-    locked: 0
   - name: Player
     uniqueID: 3515067721
+    locked: 0
+  - name: TV
+    uniqueID: 3139851631
     locked: 0
