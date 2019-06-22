@@ -5,7 +5,8 @@ using UnityEngine.UI;
 public class MenuManager : MonoBehaviour
 {
     public GameObject theMenu;
-
+    public GameObject[] windows;
+    public static MenuManager instance; 
     // Start is called before the first frame update
     void Start()
     {
@@ -20,12 +21,35 @@ public class MenuManager : MonoBehaviour
             if(theMenu.activeInHierarchy)
             {
                 theMenu.SetActive(false);
+                PlayerController.instance.canMove = true;
             }
             else 
             {
                 theMenu.SetActive(true);
+                PlayerController.instance.canMove = false;
+
             }
         }
         
+    }
+
+    public void toggleWindow(int windowLocation) 
+    {
+        for(int i =0; i < windows.Length; i++) {
+            if(windowLocation == i) {
+                windows[i].SetActive(! windows[i].activeInHierarchy);
+            }
+            else
+            {
+                windows[i].SetActive(false);
+            }
+            
+        }
+    }
+
+    public void toggleMenu()
+    {
+        theMenu.SetActive(false);
+        PlayerController.instance.canMove = true;
     }
 }
