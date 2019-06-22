@@ -46,4 +46,10 @@ public class MenuManager : MonoBehaviour
             
         }
     }
+
+    public void toggleMenu()
+    {
+        theMenu.SetActive(false);
+        PlayerController.instance.canMove = true;
+    }
 }
