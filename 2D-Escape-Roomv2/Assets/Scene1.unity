@@ -2803,7 +2803,6 @@ GameObject:
   - component: {fileID: 908433723}
   - component: {fileID: 908433726}
   - component: {fileID: 908433727}
-  - component: {fileID: 908433728}
   m_Layer: 0
   m_Name: Large _sink_0
   m_TagString: Untagged
@@ -2938,21 +2937,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 29.412952, y: 52.675835}
   m_EdgeRadius: 0
---- !u!114 &908433728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 908433722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 605bc87645e4d48cca14000191f8f3c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactText: {fileID: 0}
-  action: turn on
-  itemName: Kitchen Sink
 --- !u!1 &939148314
 GameObject:
   m_ObjectHideFlags: 0
@@ -4269,7 +4253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1268653318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4384,6 +4368,7 @@ MonoBehaviour:
   interactText: {fileID: 0}
   action: 
   itemName: 
+  canInteract: 0
 --- !u!1 &1309879314
 GameObject:
   m_ObjectHideFlags: 0
