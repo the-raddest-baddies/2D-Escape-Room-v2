@@ -47,4 +47,10 @@ public class PauseMenuController : MonoBehaviour
             
         }
     }
+
+    public void toggleMenu()
+    {
+        pauseMenu.SetActive(false);
+        //PlayerController.instance.canMove = true;
+    }
 }
