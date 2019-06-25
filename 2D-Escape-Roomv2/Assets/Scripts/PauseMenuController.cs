@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PauseMenuController : MonoBehaviour
 {
     public GameObject pauseMenu;
+    public GameObject[] windows;
 
     // Start is called before the first frame update
     void Start()
@@ -31,5 +32,19 @@ public class PauseMenuController : MonoBehaviour
             }
         }
         
+    }
+
+    public void toggleWindow(int windowLocation) 
+    {
+        for(int i =0; i < windows.Length; i++) {
+            if(windowLocation == i) {
+                windows[i].SetActive(! windows[i].activeInHierarchy);
+            }
+            else
+            {
+                windows[i].SetActive(false);
+            }
+            
+        }
     }
 }
