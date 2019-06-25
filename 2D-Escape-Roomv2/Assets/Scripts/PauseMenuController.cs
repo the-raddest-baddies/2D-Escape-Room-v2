@@ -22,13 +22,12 @@ public class PauseMenuController : MonoBehaviour
             if(pauseMenu.activeInHierarchy)
             {
                 pauseMenu.SetActive(false);
-                //PlayerController.instance.canMove = true;
+                GameManager.instance.gameMenuOpen = false;
             }
             else 
             {
                 pauseMenu.SetActive(true);
-                //PlayerController.instance.canMove = false;
-
+                GameManager.instance.gameMenuOpen = true;
             }
         }
         
@@ -51,6 +50,6 @@ public class PauseMenuController : MonoBehaviour
     public void toggleMenu()
     {
         pauseMenu.SetActive(false);
-        //PlayerController.instance.canMove = true;
+        GameManager.instance.gameMenuOpen = false;
     }
 }
