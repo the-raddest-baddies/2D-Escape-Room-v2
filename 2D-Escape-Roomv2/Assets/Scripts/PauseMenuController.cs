@@ -7,6 +7,7 @@ public class PauseMenuController : MonoBehaviour
 {
     public GameObject pauseMenu;
     public GameObject[] windows;
+    public ItemButton[] itemButtons;
 
     // Start is called before the first frame update
     void Start()
@@ -51,5 +52,22 @@ public class PauseMenuController : MonoBehaviour
     {
         pauseMenu.SetActive(false);
         GameManager.instance.gameMenuOpen = false;
+    }
+
+    public void showItems()
+    {        
+        for(int i = 0; i < itemButtons.Length; i++)
+        {
+            itemButtons[i].buttonValue = i;
+            if(GameManager.instance.itemsHeld[i] != "")
+            {
+                itemButtons[i].buttonImage.gameObject.SetActive(true);
+                itemButtons[i].buttonImage.sprite = GameManager.instance.getItemDetails(GameManager.instance.itemsHeld[i]).itemSprite;
+            }
+            else 
+            {
+                itemButtons[i].buttonImage.gameObject.SetActive(false);
+            }
+        }
     }
 }
