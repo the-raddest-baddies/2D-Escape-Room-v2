@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Items
   layers:
   - Default
   - TransparentFX
@@ -42,17 +43,17 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Background
-    uniqueID: 2661247687
+    uniqueID: 2410937021
     locked: 0
-  - name: Floor-Decor
-    uniqueID: 3766555975
+  - name: Floor Decor
+    uniqueID: 562780997
     locked: 0
   - name: Furniture
-    uniqueID: 3334339011
+    uniqueID: 539922969
     locked: 0
   - name: Player
-    uniqueID: 3515067721
+    uniqueID: 303282545
     locked: 0
   - name: TV
-    uniqueID: 3139851631
+    uniqueID: 4018092075
     locked: 0
