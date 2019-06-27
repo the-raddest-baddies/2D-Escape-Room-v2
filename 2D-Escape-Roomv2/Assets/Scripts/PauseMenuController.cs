@@ -31,6 +31,16 @@ public class PauseMenuController : MonoBehaviour
                 GameManager.instance.gameMenuOpen = true;
             }
         }
+
+        if(Input.GetKeyDown(KeyCode.C))
+        {
+            toggleMenu();
+        }
+        if(Input.GetKeyDown(KeyCode.I))
+        {
+            toggleWindow(0);
+            showItems();
+        }
         
     }
 
@@ -38,7 +48,7 @@ public class PauseMenuController : MonoBehaviour
     {
         for(int i =0; i < windows.Length; i++) {
             if(windowLocation == i) {
-                windows[i].SetActive(! windows[i].activeInHierarchy);
+                windows[i].SetActive(!windows[i].activeInHierarchy);
             }
             else
             {
