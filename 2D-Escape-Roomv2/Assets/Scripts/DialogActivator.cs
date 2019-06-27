@@ -5,6 +5,8 @@ using UnityEngine;
 public class DialogActivator : MonoBehaviour {
 
     public string[] lines;
+    public bool inventoryItem;
+    public string ItemName;
 
     private bool canActivate;
 
@@ -18,8 +20,12 @@ public class DialogActivator : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if(canActivate && Input.GetButtonDown("Fire1") && !DialogManager.instance.dialogBox.activeInHierarchy){
+        if(canActivate && Input.GetButtonDown("Fire2") && !DialogManager.instance.dialogBox.activeInHierarchy){
+            Debug.Log(ItemName);
             DialogManager.instance.ShowDialog(lines);
+            if(inventoryItem) {
+                GameManager.instance.addItemToInventory(ItemName);
+            }
         }
     }
 

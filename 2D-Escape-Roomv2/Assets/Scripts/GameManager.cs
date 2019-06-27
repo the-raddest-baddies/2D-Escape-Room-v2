@@ -41,4 +41,17 @@ public class GameManager : MonoBehaviour
         }
         return null;
     }
+    public bool addItemToInventory(string ItemName)
+    {
+        bool addItem = false;
+        for(int i =0; i < itemsHeld.Length; i++) {
+            if(itemsHeld[i] == "")
+            {
+                itemsHeld[i] = ItemName;
+                return true;
+            }
+        }
+        return false;
+
+    }
 }

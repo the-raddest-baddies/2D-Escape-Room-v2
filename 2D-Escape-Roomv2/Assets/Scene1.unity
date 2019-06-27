@@ -3084,6 +3084,7 @@ GameObject:
   - component: {fileID: 675767049}
   - component: {fileID: 675767050}
   - component: {fileID: 675767051}
+  - component: {fileID: 675767052}
   m_Layer: 0
   m_Name: Magnet
   m_TagString: Untagged
@@ -3210,6 +3211,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5423262, y: 4.4454155}
   m_EdgeRadius: 0
+--- !u!114 &675767052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675767046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f4ba7d2293e24e9b9392d76f492d5a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - Picked up Magnet
+  inventoryItem: 1
+  ItemName: magnet
 --- !u!1 &676640290
 GameObject:
   m_ObjectHideFlags: 0
@@ -3908,6 +3925,8 @@ MonoBehaviour:
   - Please tell me this
   - dang thing is
   - finally working!
+  inventoryItem: 0
+  ItemName: 
 --- !u!61 &908433727
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4588,6 +4607,8 @@ MonoBehaviour:
   - It would've been nice to see this earlier.
   - n-Reporter
   - And back to you at the desk.
+  inventoryItem: 0
+  ItemName: 
 --- !u!114 &981475648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5929,6 +5950,8 @@ MonoBehaviour:
   - Why doesn't this
   - dang thing
   - work?!
+  inventoryItem: 0
+  ItemName: 
 --- !u!114 &1334115323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5981,6 +6004,8 @@ MonoBehaviour:
   - ' - Tinder Girl'
   - P.S.
   - "Don\u2019t breathe too fast."
+  inventoryItem: 0
+  ItemName: 
 --- !u!1 &1357467606
 GameObject:
   m_ObjectHideFlags: 0
@@ -6439,9 +6464,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameMenuOpen: 0
   itemsHeld:
-  - magnet
   - 
-  - stick
+  - 
+  - 
   - 
   - 
   referanceItems:
@@ -7009,6 +7034,7 @@ GameObject:
   - component: {fileID: 1544982281}
   - component: {fileID: 1544982282}
   - component: {fileID: 1544982283}
+  - component: {fileID: 1544982284}
   m_Layer: 0
   m_Name: Floss
   m_TagString: Untagged
@@ -7135,6 +7161,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.625, y: 6.080699}
   m_EdgeRadius: 0
+--- !u!114 &1544982284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544982278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f4ba7d2293e24e9b9392d76f492d5a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - Picked Up Floss
+  inventoryItem: 1
+  ItemName: floss
 --- !u!1 &1631774964
 GameObject:
   m_ObjectHideFlags: 0
@@ -8651,6 +8693,8 @@ MonoBehaviour:
   - I would use this...
   - But I already had an accident
   - in my pants.
+  inventoryItem: 0
+  ItemName: 
 --- !u!61 &1945672322
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8703,6 +8747,7 @@ GameObject:
   - component: {fileID: 1975758710}
   - component: {fileID: 1975758712}
   - component: {fileID: 1975758711}
+  - component: {fileID: 1975758713}
   m_Layer: 0
   m_Name: Stick
   m_TagString: Untagged
@@ -8829,6 +8874,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: {fileID: 648542917}
+--- !u!114 &1975758713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975758707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f4ba7d2293e24e9b9392d76f492d5a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - Picked up branch
+  inventoryItem: 1
+  ItemName: stick
 --- !u!1 &2005008924
 GameObject:
   m_ObjectHideFlags: 0
@@ -9429,11 +9490,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 799395440}
     m_Modifications:
-    - target: {fileID: 6292747432551604539, guid: 96c8d85d6e65d4cc49f3402aee0c1b1e,
-        type: 3}
-      propertyPath: m_Name
-      value: FishingPole
-      objectReference: {fileID: 0}
     - target: {fileID: 4386583159179674448, guid: 96c8d85d6e65d4cc49f3402aee0c1b1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9488,6 +9544,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292747432551604539, guid: 96c8d85d6e65d4cc49f3402aee0c1b1e,
+        type: 3}
+      propertyPath: m_Name
+      value: FishingPole
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96c8d85d6e65d4cc49f3402aee0c1b1e, type: 3}
