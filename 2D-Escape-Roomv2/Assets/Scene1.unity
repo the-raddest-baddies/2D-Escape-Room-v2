@@ -7926,6 +7926,7 @@ GameObject:
   - component: {fileID: 1824133652}
   - component: {fileID: 1824133651}
   - component: {fileID: 1824133653}
+  - component: {fileID: 1824133654}
   m_Layer: 0
   m_Name: Workbench
   m_TagString: Untagged
@@ -8059,6 +8060,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.6486874, y: 5.1875}
   m_EdgeRadius: 0
+--- !u!114 &1824133654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824133648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f4ba7d2293e24e9b9392d76f492d5a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - '?'
+  inventoryItem: 1
+  ItemName: workbench
 --- !u!1 &1849731638
 GameObject:
   m_ObjectHideFlags: 0

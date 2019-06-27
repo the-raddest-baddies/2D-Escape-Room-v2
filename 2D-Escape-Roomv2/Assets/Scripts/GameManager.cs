@@ -54,4 +54,16 @@ public class GameManager : MonoBehaviour
         return false;
 
     }
+    public int currentHeld()
+    {
+        int totalItem = 0;
+        for(int i = 0; i < itemsHeld.Length; i++)
+        {
+            if(itemsHeld[i] != "")
+            {
+                totalItem++;
+            }
+        }
+        return totalItem;
+    }
 }

@@ -21,11 +21,26 @@ public class DialogActivator : MonoBehaviour {
     void Update()
     {
         if(canActivate && Input.GetButtonDown("Fire2") && !DialogManager.instance.dialogBox.activeInHierarchy){
-            Debug.Log(ItemName);
-            DialogManager.instance.ShowDialog(lines);
             if(inventoryItem) {
-                GameManager.instance.addItemToInventory(ItemName);
+                if(ItemName == "workbench")
+                {
+                    if(GameManager.instance.currentHeld() < 3)
+                    {
+                        lines[0] = "Hmm, looks like Im missing something";
+                    }
+                    else 
+                    {
+                        lines[0] = "wow! created a new item";
+                    }
+                }
+                else 
+                {
+                    GameManager.instance.addItemToInventory(ItemName);
+                }
+                
             }
+            DialogManager.instance.ShowDialog(lines);
+            
         }
     }
 
