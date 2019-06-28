@@ -17,7 +17,7 @@ public class InteractionUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canInteract && !DialogManager.instance.dialogBox.activeInHierarchy){
+        if(canInteract && !DialogManager.instance.dialogBox.activeInHierarchy && !PauseMenuController.instance.pauseMenu.activeInHierarchy){
             interactText.SetActive(true);
         }else{interactText.SetActive(false);
         }

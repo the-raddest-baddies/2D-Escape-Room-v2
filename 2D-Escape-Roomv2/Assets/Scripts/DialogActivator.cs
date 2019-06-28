@@ -7,6 +7,7 @@ public class DialogActivator : MonoBehaviour {
     public string[] lines;
     public bool inventoryItem;
     public string ItemName;
+    public bool isPerson = false;
 
     private bool canActivate;
 
@@ -64,7 +65,7 @@ public class DialogActivator : MonoBehaviour {
                 }
                 
             }
-            DialogManager.instance.ShowDialog(lines);
+            DialogManager.instance.ShowDialog(lines, isPerson);
             
         }
     }
