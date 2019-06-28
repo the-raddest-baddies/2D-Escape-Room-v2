@@ -36,7 +36,6 @@ public class DialogActivator : MonoBehaviour {
                 }
                 else if(ItemName == "keyVent")
                 {
-                    Debug.Log("it the key vent");
                     if(GameManager.instance.currentHeld() == 1 && GameManager.instance.itemsHeld[0] == "Fishing Pole")
                     {
                         lines[0] = "Wow, I got the key";
@@ -45,6 +44,18 @@ public class DialogActivator : MonoBehaviour {
                     else
                     {
                         lines[0] = "Seems I cant reach the key";
+                    }
+                }
+                else if(ItemName == "door")
+                {
+                    if(GameManager.instance.currentHeld() == 1 && GameManager.instance.itemsHeld[0] == "key")
+                    {
+                        lines[0] = "Open door";
+                        
+                    }
+                    else
+                    {
+                        lines[0] = "Door seems to be locked. There has to be a key some where here?";
                     }
                 }
                 else 
