@@ -31,6 +31,7 @@ public class DialogActivator : MonoBehaviour {
                     else 
                     {
                         lines[0] = "wow! created a new item";
+                        GameManager.instance.addFinalItem();
                     }
                 }
                 else 
