@@ -66,12 +66,19 @@ public class GameManager : MonoBehaviour
         }
         return totalItem;
     }
-    public void addFinalItem()
+    public void addFinalItem(string item)
     {
         for(int i = 0; i < itemsHeld.Length; i++)
         {
             itemsHeld[i] = "";
         }
-        addItemToInventory("Fishing Pole");
+        if(item == "key")
+        {
+            addItemToInventory("key");
+        }
+        else {
+            addItemToInventory("Fishing Pole");
+        }
+        
     }
 }

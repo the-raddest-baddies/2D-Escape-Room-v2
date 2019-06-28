@@ -31,7 +31,20 @@ public class DialogActivator : MonoBehaviour {
                     else 
                     {
                         lines[0] = "wow! created a new item";
-                        GameManager.instance.addFinalItem();
+                        GameManager.instance.addFinalItem("fishing");
+                    }
+                }
+                else if(ItemName == "keyVent")
+                {
+                    Debug.Log("it the key vent");
+                    if(GameManager.instance.currentHeld() == 1 && GameManager.instance.itemsHeld[0] == "Fishing Pole")
+                    {
+                        lines[0] = "Wow, I got the key";
+                        GameManager.instance.addFinalItem("key");
+                    }
+                    else
+                    {
+                        lines[0] = "Seems I cant reach the key";
                     }
                 }
                 else 
