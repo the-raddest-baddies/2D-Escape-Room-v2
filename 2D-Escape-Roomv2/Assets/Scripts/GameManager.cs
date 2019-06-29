@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public bool dialogActive;
     public string[] itemsHeld;
     public Item[] referanceItems;
+    public InteractionTextItem[] referanceItemTexts;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,26 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void removeItemFromSceen(string ItemName)
+    {
+        if(ItemName != "Fishing Pole") 
+        {
+            Item remove = getItemDetails(ItemName);
+            remove.gameObject.SetActive(false);
+        }
+        if(ItemName == "Fishing Pole")
+        {
+            getItemTextDetails("bench").gameObject.SetActive(false);
+            
+            getItemDetails("bench").gameObject.GetComponent<BoxCollider2D> ().enabled = false;
+        }
+        else 
+        {
+            getItemTextDetails(ItemName).gameObject.SetActive(false);
+        }
+        
+    }
+
     public Item getItemDetails(string itemToGrab)
     {
         for(int i = 0; i < referanceItems.Length; i++)
@@ -42,9 +63,28 @@ public class GameManager : MonoBehaviour
         }
         return null;
     }
+
+
+    public InteractionTextItem getItemTextDetails(string itemToGrab)
+    {
+        for(int i = 0; i < referanceItemTexts.Length; i++)
+        {
+            if(itemToGrab == referanceItemTexts[i].name)
+            {
+                return referanceItemTexts[i];
+            }
+        }
+        return null;
+    }
+
     public bool addItemToInventory(string ItemName)
     {
-        bool addItem = false;
+        if(ItemName != "key")
+        {
+            removeItemFromSceen(ItemName);
+        }
+        
+        
         for(int i =0; i < itemsHeld.Length; i++) {
             if(itemsHeld[i] == "")
             {
@@ -82,4 +122,5 @@ public class GameManager : MonoBehaviour
         }
         
     }
+    
 }

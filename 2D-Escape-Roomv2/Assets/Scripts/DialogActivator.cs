@@ -31,6 +31,7 @@ public class DialogActivator : MonoBehaviour {
                     }
                     else 
                     {
+                        Debug.Log("got to the creation");
                         lines[0] = "Wow! You crafted a makeshift fishing pole!";
                         GameManager.instance.addFinalItem("fishing");
                     }

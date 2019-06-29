@@ -910,6 +910,7 @@ GameObject:
   - component: {fileID: 189156879}
   - component: {fileID: 189156881}
   - component: {fileID: 189156880}
+  - component: {fileID: 189156882}
   m_Layer: 5
   m_Name: Magnet
   m_TagString: Untagged
@@ -978,6 +979,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 189156878}
   m_CullTransparentMesh: 0
+--- !u!114 &189156882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189156878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feaeeba308b234d5da7d5e81c0391f22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: magnet
 --- !u!1 &208784249
 GameObject:
   m_ObjectHideFlags: 0
@@ -2801,6 +2815,7 @@ GameObject:
   - component: {fileID: 648542918}
   - component: {fileID: 648542920}
   - component: {fileID: 648542919}
+  - component: {fileID: 648542921}
   m_Layer: 5
   m_Name: Branch
   m_TagString: Untagged
@@ -2869,6 +2884,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 648542917}
   m_CullTransparentMesh: 0
+--- !u!114 &648542921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648542917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feaeeba308b234d5da7d5e81c0391f22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: stick
 --- !u!1 &675767046
 GameObject:
   m_ObjectHideFlags: 0
@@ -6575,6 +6603,12 @@ MonoBehaviour:
   - {fileID: 675767049}
   - {fileID: 1283154649}
   - {fileID: 1475193193}
+  - {fileID: 1824133652}
+  referanceItemTexts:
+  - {fileID: 189156882}
+  - {fileID: 1695228286}
+  - {fileID: 648542921}
+  - {fileID: 1654283566}
 --- !u!1 &1469132425
 GameObject:
   m_ObjectHideFlags: 0
@@ -7771,6 +7805,7 @@ GameObject:
   - component: {fileID: 1654283565}
   - component: {fileID: 1654283564}
   - component: {fileID: 1654283563}
+  - component: {fileID: 1654283566}
   m_Layer: 5
   m_Name: CraftingBench
   m_TagString: Untagged
@@ -7839,6 +7874,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 310}
   m_SizeDelta: {x: 656.5, y: 87.3}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1654283566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654283562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feaeeba308b234d5da7d5e81c0391f22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: bench
 --- !u!1 &1659016083
 GameObject:
   m_ObjectHideFlags: 0
@@ -8046,6 +8094,7 @@ GameObject:
   - component: {fileID: 1695228283}
   - component: {fileID: 1695228285}
   - component: {fileID: 1695228284}
+  - component: {fileID: 1695228286}
   m_Layer: 5
   m_Name: Floss
   m_TagString: Untagged
@@ -8114,6 +8163,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1695228282}
   m_CullTransparentMesh: 0
+--- !u!114 &1695228286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695228282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feaeeba308b234d5da7d5e81c0391f22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: floss
 --- !u!1 &1735159280
 GameObject:
   m_ObjectHideFlags: 0
@@ -8386,6 +8448,7 @@ GameObject:
   - component: {fileID: 1824133651}
   - component: {fileID: 1824133653}
   - component: {fileID: 1824133654}
+  - component: {fileID: 1824133652}
   m_Layer: 0
   m_Name: Workbench
   m_TagString: Untagged
@@ -8471,6 +8534,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: {fileID: 1654283562}
+--- !u!114 &1824133652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824133648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 636d32110329f493f90dfad2fa237ccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: bench
+  itemSprite: {fileID: 0}
 --- !u!61 &1824133653
 BoxCollider2D:
   m_ObjectHideFlags: 0
