@@ -67,10 +67,9 @@ public class PauseMenuController : MonoBehaviour
 
     public void showItems()
     {        
-        for(int i = 0; i < itemButtons.Length; i++)
+        for(int i = 0; i < 3; i++)
         {
             itemButtons[i].buttonValue = i;
-            Debug.Log(itemButtons[i].name);
             if(GameManager.instance.itemsHeld[i] != "")
             {
                 itemButtons[i].buttonImage.gameObject.SetActive(true);

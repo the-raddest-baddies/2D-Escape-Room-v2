@@ -17,9 +17,9 @@ public class NoteUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canActivate && Input.GetButtonDown("Fire2") && !noteUI.activeInHierarchy && !DialogManager.instance.dialogBox.activeInHierarchy && !PauseMenuController.instance.pauseMenu.activeInHierarchy){
+        if(canActivate && Input.GetButtonDown("Fire2") && !noteUI.activeInHierarchy && !DialogManager.instance.dialogBox.activeInHierarchy ){
             noteUI.SetActive(true);
-        } else if(canActivate && Input.GetButtonDown("Fire2") && noteUI.activeInHierarchy && !DialogManager.instance.dialogBox.activeInHierarchy && !PauseMenuController.instance.pauseMenu.activeInHierarchy){
+        } else if(canActivate && Input.GetButtonDown("Fire2") && noteUI.activeInHierarchy && !DialogManager.instance.dialogBox.activeInHierarchy ){
             noteUI.SetActive(false);
         }
     }

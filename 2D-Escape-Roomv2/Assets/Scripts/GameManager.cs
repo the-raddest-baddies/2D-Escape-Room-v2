@@ -15,24 +15,17 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
 
-        // DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject);
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(gameMenuOpen)
+        if(gameMenuOpen || dialogActive)
         {
             PlayerController.instance.canMove = false;
         } else 
-        {
-            PlayerController.instance.canMove = true;
-        }
-        if(dialogActive)
-        {
-            PlayerController.instance.canMove = false;
-        } else
         {
             PlayerController.instance.canMove = true;
         }
@@ -45,7 +38,6 @@ public class GameManager : MonoBehaviour
             if(itemToGrab == referanceItems[i].name)
             {
                 return referanceItems[i];
-                Destroy(gameObject);
             }
         }
         return null;
