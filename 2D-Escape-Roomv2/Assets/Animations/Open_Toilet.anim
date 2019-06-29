@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bathroom_Sink_Floss
+  m_Name: Open_Toilet
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 2882355044371501999, guid: 68d282c11f29f49dfac134734140000c,
+      value: {fileID: 4351482941008793398, guid: 68d282c11f29f49dfac134734140000c,
         type: 3}
-    - time: 0.51666665
-      value: {fileID: 5636225762402653536, guid: 68d282c11f29f49dfac134734140000c,
-        type: 3}
-    - time: 1
-      value: {fileID: 5636225762402653536, guid: 68d282c11f29f49dfac134734140000c,
+    - time: 0.05
+      value: {fileID: 4351482941008793398, guid: 68d282c11f29f49dfac134734140000c,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -47,20 +44,19 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 2882355044371501999, guid: 68d282c11f29f49dfac134734140000c, type: 3}
-    - {fileID: 5636225762402653536, guid: 68d282c11f29f49dfac134734140000c, type: 3}
-    - {fileID: 5636225762402653536, guid: 68d282c11f29f49dfac134734140000c, type: 3}
+    - {fileID: 4351482941008793398, guid: 68d282c11f29f49dfac134734140000c, type: 3}
+    - {fileID: 4351482941008793398, guid: 68d282c11f29f49dfac134734140000c, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.0166667
+    m_StopTime: 0.06666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 1
+    m_LoopTime: 0
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
