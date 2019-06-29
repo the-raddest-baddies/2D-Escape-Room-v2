@@ -486,8 +486,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: 0.000012398}
-  m_SizeDelta: {x: 353.2, y: 75.4}
+  m_AnchoredPosition: {x: 0.3, y: 1.6}
+  m_SizeDelta: {x: 179.4, y: 72.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &88585736
 MonoBehaviour:
@@ -1234,7 +1234,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &270683520
 MonoBehaviour:
@@ -1514,8 +1514,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -742, y: 141.68}
-  m_SizeDelta: {x: -1521.4, y: -283.35}
+  m_AnchoredPosition: {x: -648.1, y: 202.4}
+  m_SizeDelta: {x: -1296.1, y: -293.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318584078
 MonoBehaviour:
@@ -1593,7 +1593,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 250, y: -50}
+  m_AnchoredPosition: {x: 450, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &334162037
@@ -2249,15 +2249,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 1428892310142603471, guid: 374a38d290d174d319f06158c65dc2dc,
+    type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2805,107 +2806,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 648542917}
   m_CullTransparentMesh: 0
---- !u!1 &650042052
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 650042055}
-  - component: {fileID: 650042054}
-  - component: {fileID: 650042053}
-  m_Layer: 0
-  m_Name: Large _sink_3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &650042053
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650042052}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 45378a59704ad45dbb8f422e5dedd589, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!212 &650042054
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650042052}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 539922969
-  m_SortingLayer: 3
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 208349795798149528, guid: f37b074378594491ea11c5c09b5d845e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 91.3125, y: 39.584965}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &650042055
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650042052}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.214813, y: 8.340396, z: 2124.4417}
-  m_LocalScale: {x: 0.13409437, y: 0.13409437, z: 0.13409437}
-  m_Children: []
-  m_Father: {fileID: 1102500335}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &675767046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2922,7 +2822,7 @@ GameObject:
   - component: {fileID: 675767052}
   m_Layer: 0
   m_Name: Magnet
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2990,7 +2890,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 799395440}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &675767049
 MonoBehaviour:
@@ -3062,6 +2962,7 @@ MonoBehaviour:
   - Picked up Magnet
   inventoryItem: 1
   ItemName: magnet
+  isPerson: 0
 --- !u!1 &676640290
 GameObject:
   m_ObjectHideFlags: 0
@@ -3250,7 +3151,7 @@ Transform:
   m_LocalScale: {x: 0.06816129, y: 0.06816129, z: 0.06816129}
   m_Children: []
   m_Father: {fileID: 799395440}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &767955082
 SpriteRenderer:
@@ -3562,13 +3463,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1334115319}
-  - {fileID: 1975758708}
-  - {fileID: 767955081}
-  - {fileID: 1544982279}
   - {fileID: 2104077464}
   - {fileID: 675767048}
-  - {fileID: 1283154651}
   - {fileID: 1475193195}
+  - {fileID: 1544982279}
+  - {fileID: 767955081}
+  - {fileID: 1283154651}
+  - {fileID: 1975758708}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3827,7 +3728,9 @@ GameObject:
   - component: {fileID: 908433723}
   - component: {fileID: 908433726}
   - component: {fileID: 908433727}
+  - component: {fileID: 908433729}
   - component: {fileID: 908433728}
+  - component: {fileID: 908433730}
   m_Layer: 0
   m_Name: Large _sink_0
   m_TagString: Untagged
@@ -3843,9 +3746,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 908433722}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 20efb101826ab441fbcd625d7901ffbc, type: 2}
+  m_Controller: {fileID: 9100000, guid: 45378a59704ad45dbb8f422e5dedd589, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3932,11 +3835,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - Please tell me this
-  - dang thing is
-  - finally working!
+  - Turning this on
+  - seems pointless
   inventoryItem: 0
   ItemName: 
+  isPerson: 0
 --- !u!61 &908433727
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3964,6 +3867,31 @@ BoxCollider2D:
   m_Size: {x: 29.412952, y: 52.675835}
   m_EdgeRadius: 0
 --- !u!114 &908433728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908433722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3452d641e44a741a88462b54ef0dac65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &908433729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908433722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f5031afa941343a7b78966c40495ca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionAnimation: {fileID: 908433723}
+--- !u!114 &908433730
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4477,7 +4405,9 @@ GameObject:
   - component: {fileID: 981475643}
   - component: {fileID: 981475647}
   - component: {fileID: 981475646}
+  - component: {fileID: 981475649}
   - component: {fileID: 981475648}
+  - component: {fileID: 981475650}
   m_Layer: 0
   m_Name: TVOn
   m_TagString: Untagged
@@ -4495,7 +4425,7 @@ Animator:
   m_GameObject: {fileID: 981475642}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 433bdffb014b94734a3b1ca055f1279c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 61f1b13d6f2464462b995119a82d901d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4619,7 +4549,33 @@ MonoBehaviour:
   - And back to you at the desk.
   inventoryItem: 0
   ItemName: 
+  isPerson: 1
 --- !u!114 &981475648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981475642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3452d641e44a741a88462b54ef0dac65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &981475649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981475642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f5031afa941343a7b78966c40495ca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionAnimation: {fileID: 981475643}
+--- !u!114 &981475650
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4998,37 +4954,6 @@ Transform:
   m_Father: {fileID: 396430786}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1102500334
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1102500335}
-  m_Layer: 0
-  m_Name: KitchenSinkOff
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1102500335
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1102500334}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 650042055}
-  m_Father: {fileID: 1883939510}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1102919121
 GameObject:
   m_ObjectHideFlags: 0
@@ -5168,8 +5093,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -285.9}
-  m_SizeDelta: {x: -21.6, y: -589.3}
+  m_AnchoredPosition: {x: 0, y: -287.25}
+  m_SizeDelta: {x: -225, y: -631.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1110084419
 MonoBehaviour:
@@ -5945,13 +5870,13 @@ GameObject:
   - component: {fileID: 1334115319}
   - component: {fileID: 1334115321}
   - component: {fileID: 1334115320}
-  - component: {fileID: 1334115322}
   - component: {fileID: 1334115323}
   - component: {fileID: 1334115324}
   - component: {fileID: 1334115325}
+  - component: {fileID: 1334115322}
   m_Layer: 0
   m_Name: Paper
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5963,13 +5888,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334115318}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.28757933, w: 0.9577568}
   m_LocalPosition: {x: 2.444679, y: 10.961592, z: 792.21985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 799395440}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 33.426003}
 --- !u!61 &1334115320
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5983,7 +5908,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.1518335, y: -2.190628}
+  m_Offset: {x: -0.653159, y: -2.0275815}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5994,7 +5919,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.303667, y: 5.506256}
+  m_Size: {x: 4.6232014, y: 5.180163}
   m_EdgeRadius: 0
 --- !u!212 &1334115321
 SpriteRenderer:
@@ -6056,15 +5981,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1334115318}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f4ba7d2293e24e9b9392d76f492d5a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 33ac68f5b0ca94ae7ae2411aeb9304cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lines:
-  - Why doesn't this
-  - dang thing
-  - work?!
-  inventoryItem: 0
-  ItemName: 
+  noteUI: {fileID: 270683518}
+  canActivate: 0
 --- !u!114 &1334115323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6100,7 +6021,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334115318}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f4ba7d2293e24e9b9392d76f492d5a2, type: 3}
   m_Name: 
@@ -6119,6 +6040,7 @@ MonoBehaviour:
   - "Don\u2019t breathe too fast."
   inventoryItem: 0
   ItemName: 
+  isPerson: 0
 --- !u!1 &1357467606
 GameObject:
   m_ObjectHideFlags: 0
@@ -6576,6 +6498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameMenuOpen: 0
+  dialogActive: 0
   itemsHeld:
   - 
   - 
@@ -6660,7 +6583,7 @@ GameObject:
   - component: {fileID: 1475193193}
   m_Layer: 0
   m_Name: key
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6743,7 +6666,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 799395440}
-  m_RootOrder: 7
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1480095751
 GameObject:
@@ -7210,6 +7133,7 @@ MonoBehaviour:
   - '?'
   inventoryItem: 1
   ItemName: door
+  isPerson: 0
 --- !u!1 &1530612940
 GameObject:
   m_ObjectHideFlags: 0
@@ -7308,7 +7232,7 @@ GameObject:
   - component: {fileID: 1544982284}
   m_Layer: 0
   m_Name: Floss
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7325,7 +7249,7 @@ Transform:
   m_LocalScale: {x: 0.346, y: 0.346, z: 0.346}
   m_Children: []
   m_Father: {fileID: 799395440}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1544982280
 SpriteRenderer:
@@ -7448,6 +7372,7 @@ MonoBehaviour:
   - Picked Up Floss
   inventoryItem: 1
   ItemName: floss
+  isPerson: 0
 --- !u!1 &1571416996
 GameObject:
   m_ObjectHideFlags: 0
@@ -8506,6 +8431,7 @@ MonoBehaviour:
   - '?'
   inventoryItem: 1
   ItemName: workbench
+  isPerson: 0
 --- !u!1 &1836084377
 GameObject:
   m_ObjectHideFlags: 0
@@ -8778,7 +8704,6 @@ Transform:
   - {fileID: 772014235}
   - {fileID: 1016014862}
   - {fileID: 500479737}
-  - {fileID: 1102500335}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8816,8 +8741,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.3, y: -23.298}
-  m_SizeDelta: {x: 1886.4, y: 196.6}
+  m_AnchoredPosition: {x: -0.000012398, y: 0.0000038147}
+  m_SizeDelta: {x: 1500.9, y: 178.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1894848993
 CanvasRenderer:
@@ -9108,12 +9033,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1945672320}
   - component: {fileID: 1945672319}
-  - component: {fileID: 1945672318}
   - component: {fileID: 1945672322}
   - component: {fileID: 1945672321}
+  - component: {fileID: 1945672318}
+  - component: {fileID: 1945672324}
   - component: {fileID: 1945672323}
+  - component: {fileID: 1945672325}
   m_Layer: 0
-  m_Name: ToiletOpen
+  m_Name: Toilet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9177,7 +9104,7 @@ SpriteRenderer:
   m_SortingLayerID: 539922969
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4351482941008793398, guid: 68d282c11f29f49dfac134734140000c,
+  m_Sprite: {fileID: -7698133239049158618, guid: 68d282c11f29f49dfac134734140000c,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9221,6 +9148,7 @@ MonoBehaviour:
   - in my pants.
   inventoryItem: 0
   ItemName: 
+  isPerson: 0
 --- !u!61 &1945672322
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9256,6 +9184,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 1945672317}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3452d641e44a741a88462b54ef0dac65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1945672324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945672317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f5031afa941343a7b78966c40495ca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionAnimation: {fileID: 1945672318}
+--- !u!114 &1945672325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945672317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 637263e4feced42c791a48924eb732bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -9276,7 +9229,7 @@ GameObject:
   - component: {fileID: 1975758713}
   m_Layer: 0
   m_Name: Stick
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9293,7 +9246,7 @@ Transform:
   m_LocalScale: {x: 1.168, y: 1.217, z: 1}
   m_Children: []
   m_Father: {fileID: 799395440}
-  m_RootOrder: 1
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 42.886}
 --- !u!212 &1975758709
 SpriteRenderer:
@@ -9416,6 +9369,7 @@ MonoBehaviour:
   - Picked up branch
   inventoryItem: 1
   ItemName: stick
+  isPerson: 0
 --- !u!1 &2005008924
 GameObject:
   m_ObjectHideFlags: 0
@@ -9747,7 +9701,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 799395440}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2104077465
 MonoBehaviour:
@@ -9804,6 +9758,7 @@ MonoBehaviour:
   - '?'
   inventoryItem: 1
   ItemName: keyVent
+  isPerson: 0
 --- !u!114 &2104077468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10149,6 +10104,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FishingPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292747432551604539, guid: 96c8d85d6e65d4cc49f3402aee0c1b1e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96c8d85d6e65d4cc49f3402aee0c1b1e, type: 3}

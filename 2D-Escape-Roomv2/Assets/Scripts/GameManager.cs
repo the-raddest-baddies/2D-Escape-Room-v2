@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public bool gameMenuOpen;
+    public bool dialogActive;
     public string[] itemsHeld;
     public Item[] referanceItems;
 
@@ -14,7 +15,7 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
 
-        DontDestroyOnLoad(gameObject);
+        // DontDestroyOnLoad(gameObject);
         
     }
 
@@ -28,6 +29,13 @@ public class GameManager : MonoBehaviour
         {
             PlayerController.instance.canMove = true;
         }
+        if(dialogActive)
+        {
+            PlayerController.instance.canMove = false;
+        } else
+        {
+            PlayerController.instance.canMove = true;
+        }
     }
 
     public Item getItemDetails(string itemToGrab)
@@ -37,6 +45,7 @@ public class GameManager : MonoBehaviour
             if(itemToGrab == referanceItems[i].name)
             {
                 return referanceItems[i];
+                Destroy(gameObject);
             }
         }
         return null;

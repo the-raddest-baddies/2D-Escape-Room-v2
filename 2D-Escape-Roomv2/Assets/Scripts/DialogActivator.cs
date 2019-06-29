@@ -7,6 +7,7 @@ public class DialogActivator : MonoBehaviour {
     public string[] lines;
     public bool inventoryItem;
     public string ItemName;
+    public bool isPerson = false;
 
     private bool canActivate;
 
@@ -30,7 +31,7 @@ public class DialogActivator : MonoBehaviour {
                     }
                     else 
                     {
-                        lines[0] = "wow! created a new item";
+                        lines[0] = "Wow! You crafted a makeshift fishing pole!";
                         GameManager.instance.addFinalItem("fishing");
                     }
                 }
@@ -38,34 +39,32 @@ public class DialogActivator : MonoBehaviour {
                 {
                     if(GameManager.instance.currentHeld() == 1 && GameManager.instance.itemsHeld[0] == "Fishing Pole")
                     {
-                        lines[0] = "Wow, I got the key";
+                        lines[0] = "Woohoo, I got the key!";
                         GameManager.instance.addFinalItem("key");
                     }
                     else
                     {
-                        lines[0] = "Seems I cant reach the key";
+                        lines[0] = "Seems I can't reach that key...";
                     }
                 }
                 else if(ItemName == "door")
                 {
                     if(GameManager.instance.currentHeld() == 1 && GameManager.instance.itemsHeld[0] == "key")
                     {
-                        lines[0] = "Open door";
+                        lines[0] = "FREEDOM!";
                         
                     }
                     else
                     {
-                        lines[0] = "Door seems to be locked. There has to be a key some where here?";
+                        lines[0] = "Door seems to be locked. There's got to be a key somewhere around here!";
                     }
                 }
                 else 
                 {
                     GameManager.instance.addItemToInventory(ItemName);
                 }
-                
             }
-            DialogManager.instance.ShowDialog(lines);
-            
+            DialogManager.instance.ShowDialog(lines, isPerson); 
         }
     }
 

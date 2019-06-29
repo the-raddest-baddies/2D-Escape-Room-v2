@@ -8,11 +8,12 @@ public class PauseMenuController : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject[] windows;
     public ItemButton[] itemButtons;
+    public static PauseMenuController instance;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        instance = this;
     }
 
     // Update is called once per frame
